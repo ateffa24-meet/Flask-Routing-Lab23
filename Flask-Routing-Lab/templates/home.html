@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+* {
+  box-sizing: border-box;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
     <meta charset="UTF-8">
     <title>Home</title>
 </head>
 <body>
-
+<div class="row">
+  <div class="column">
+    <img src="https://m.economictimes.com/thumb/msid-95526602,width-1200,height-900,resizemode-4,imgsize-22198/image-2022-11-15t123907-105.jpg" alt="Snow" style="width:100%">
+    <p>iphon 11</p>
+  </div>
+  <div class="column">
+    <img src="https://media.wired.com/photos/5d803f5dc891950008ce3447/1:1/w_1600,h_1600,c_limit/iphone-11_6175-Edit.jpg" alt="Forest" style="width:100%">
+    <p>buyy nowwww</p>
+  </div>
+  <div class="column">
+    <img src="https://d1eh9yux7w8iql.cloudfront.net/product_images/326956_f8345bd8-8dc5-4135-be98-8ba38f9accc4.jpg" alt="Mountains" style="width:100%">
+    <p>iphon 14 pro max</p>
+  </div>
+</div>
 </body>
 </html>
